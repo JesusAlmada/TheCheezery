@@ -3,58 +3,59 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/thecheezery"
-        android:scaleType="centerCrop"
         android:layout_weight="1"
-        />
+        android:scaleType="centerCrop"
+        android:src="@drawable/thecheezery" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="10dp"
         android:layout_weight="3"
-        android:background="@color/purpleishGrey">
+        android:background="@color/purpleishGrey"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/welcome"
-            android:layout_margin="5dp"
-            android:textSize="28sp"
-            android:fontFamily="@string/light"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="24sp"
             android:textColor="@color/dustyWhite"
             android:textAlignment="center"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="@string/description"
-            android:layout_margin="5dp"
-            android:textColor="@color/dustyWhite"
+            android:fontFamily="sans-serif-light"
             android:textSize="18sp"
-            android:textAlignment="center"
             android:textStyle="italic"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/get_started"
-            android:background="@color/colorAccent"
             android:textColor="@color/dustyWhite"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btn_getstarted"
+            android:layout_width="219dp"
+            android:layout_height="33dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/get_started"
             android:layout_gravity="center"
-            android:paddingHorizontal="50dp"
-            android:layout_margin="10dp"/>
+            android:textColor="@color/dustyWhite"
+            android:background="@drawable/round_button"
+            />
 
     </LinearLayout>
-
-
 
 </LinearLayout>

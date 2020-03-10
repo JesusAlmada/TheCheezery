@@ -12,87 +12,60 @@
         android:layout_height="wrap_content"
         android:src="@drawable/imagen1"
         android:layout_marginTop="50dp"
-         />
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-		android:padding="50dp">
-
-
+        android:layout_gravity="center"
+        android:padding="50dp"
+        >
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="10dp"
-            android:layout_margin="4dp"
-            android:textColor="@color/purpleishGrey"
-            android:text="Name"
-			android:paddingTop="13dp"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/purpleishGrey"
+            android:hint="Name"
             android:paddingTop="13dp"
-            android:hint="Last Name"/>
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:paddingTop="13dp"
+            android:textSize="24sp" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="E-Mail"
-			android:paddingTop="13dp"
-            android:inputType="textEmailAddress"
-            android:textColor="@color/purpleishGrey"
-            />
+            android:paddingTop="13dp"
+            android:textSize="24sp"
+            android:inputType="textEmailAddress"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="13dp"
             android:hint="Password"
-            android:textColor="@color/purpleishGrey"
-			android:inputType="password"
-            />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/purpleishGrey"
-                    android:text="I have read and accept Therms and"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/purpleishGrey"
-                    android:text="conditions of the Cheezery"/>
-            </LinearLayout>
+            android:paddingTop="13dp"
+            android:textSize="24sp"
+            android:inputType="textPassword"/>
 
 
 
-        </LinearLayout>
-
-        <Button
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign In"
-            android:background="@color/colorAccent"
-            android:textColor="@color/dustyWhite"
+            android:layout_marginTop="20dp"
+            android:text="I have read and accept terms and conditions"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingHorizontal="50dp"
-            android:layout_margin="10dp"/>
-
+            android:layout_marginTop="45dp"
+            android:text="SIGN IN"
+            android:textColor="#FFF"/>
     </LinearLayout>
-
-
 
 </LinearLayout>
