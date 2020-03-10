@@ -12,8 +12,12 @@
         android:layout_height="wrap_content"
         android:src="@drawable/sweets"/>
 
-    <ListView
-        android:id="@+id/listview"
+    <GridView
+        android:id="@+id/gridview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="200dp"
+        android:numColumns="2"/>
+
+
+
 </LinearLayout>

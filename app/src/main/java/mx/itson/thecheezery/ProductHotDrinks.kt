@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import kotlinx.android.synthetic.main.activity_productos.*
+import kotlinx.android.synthetic.main.activity_productos_hot.*
 import kotlinx.android.synthetic.main.producto_view.view.*
 
 class ProductHotDrinks : AppCompatActivity() {
@@ -19,7 +20,7 @@ class ProductHotDrinks : AppCompatActivity() {
 
         cargarProductos()
 
-        var adaptador = AdaptadorProductos(this, colddrinks)
+        var adaptador = AdaptadorProductos(this, hotDrinks)
         listview.adapter = adaptador
     }
 

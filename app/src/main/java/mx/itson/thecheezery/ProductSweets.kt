@@ -28,7 +28,7 @@ class ProductSweets : AppCompatActivity() {
         sweets.add(Product("Chocolate cupcake", R.drawable.chocolatecupcake, "Chocolate cupcake topped with butter cream and cherries.", 3))
         sweets.add(Product("Lemon tartalette", R.drawable.lemontartalette, "pastry shell with a lemon flavored filling.", 4))
         sweets.add(Product("Red velvet cake", R.drawable.redvelvetcake, "soft, moist, buttery cake topped with an easy cream cheese frosting.", 6))
-        sweets.add(Product("Strawberry cheesecake", R.drawable.strawberrycheesecake "This strawberry topped cheesecake is positively creamy and delicious and will be your new favorite desert.", 7))
+        sweets.add(Product("Strawberry cheesecake", R.drawable.strawberrycheesecake, "This strawberry topped cheesecake is positively creamy and delicious and will be your new favorite desert.", 7))
         sweets.add(Product("Tiramisu", R.drawable.tiramisu, "Cofee-flavored Italian desert.", 6))
 
 

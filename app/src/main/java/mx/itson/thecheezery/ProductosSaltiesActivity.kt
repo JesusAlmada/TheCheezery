@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import kotlinx.android.synthetic.main.activity_product_salties.*
 import kotlinx.android.synthetic.main.activity_productos_saltiess.*
 import kotlinx.android.synthetic.main.producto_view.view.*
 
@@ -20,7 +21,7 @@ class ProductosSaltiesActivity : AppCompatActivity() {
 
         cargarProductos()
 
-        var adaptador = AdaptadorProductos(this, colddrinks)
+        var adaptador = AdaptadorProductos(this, salties)
         listview.adapter = adaptador
     }
 
